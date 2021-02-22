@@ -101,14 +101,14 @@ header h1 {
   color: white;
 }
 
-.challenge {
+#challenge {
   position: absolute;
   top: 43%;
   left: 50%;
   width: 540px;
   height: 40%;
   transform: translateX(-50%);
-  display: inline-flex;
+  display: none;
 }
 
 #you {
@@ -121,4 +121,62 @@ header h1 {
   position: relative;
   width: 37.5%;
   font-size: 50px;
+}
+
+#yourObject {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 110px;
+  height: 110px;
+  font-size: 50px;
+  padding-top: 20px;
+  border: 5px solid #34495a;
+  border-radius: 50px;
+  color: #34495a;
+  background-color: white;
+  text-align: center;
+}
+
+#comObject {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 110px;
+  height: 110px;
+  font-size: 50px;
+  padding-top: 20px;
+  border: 5px solid #34495a;
+  border-radius: 50px;
+  color: #34495a;
+  background-color: white;
+  text-align: center;
+}
+
+.who {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 30px;
+}
+
+#result {
+  position: relative;
+  width: 25%;
+}
+
+#result p {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+  width: 100%;
+  margin: 0;
+  text-align: center;
 }
