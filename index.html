@@ -20,16 +20,16 @@
             <span class="com">COM</span>
         </div>
         <div class="button">
-            <button class="btn" onclick="game(this.value)" value="rock"><i class="far fa-hand-rock"></i></button>
-            <button class="btn" onclick="game(this.value)" value="paper"><i class="far fa-hand-paper"></i></button>
-            <button class="btn" onclick="game(this.value)" value="scissors"><i class="far fa-hand-scissors"></i></button>
+            <button id='rock' class="btn" onclick="game(this.value)" value="rock"><i class="far fa-hand-rock"></i></button>
+            <button id='paper' class="btn" onclick="game(this.value)" value="paper"><i class="far fa-hand-paper"></i></button>
+            <button id='scissors' class="btn" onclick="game(this.value)" value="scissors"><i class="far fa-hand-scissors"></i></button>
         </div>
         <div id="challenge">
             <div id="you">
                 <div id="yourObject"></div>
                 <div class="who">You</div>
             </div>
-            <div id="result"></div>
+            <div id="result"><p id='who'></p></div>
             <div id="com">
                <div id="comObject"></i></div>
                <div class="who">Computer</div> 

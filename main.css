@@ -180,3 +180,51 @@ header h1 {
   margin: 0;
   text-align: center;
 }
+
+.green {
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+  border: 5px solid lightgreen;
+  box-shadow: 0 0 10px lightgreen;
+  border-radius: 50%;
+  color: #34495a;
+  font-size: 35px;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.red {
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+  border: 5px solid red;
+  box-shadow: 0 0 10px red;
+  border-radius: 50%;
+  color: #34495a;
+  font-size: 35px;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.gray {
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+  border: 5px solid #292928;
+  box-shadow: 0 0 10px #292928;
+  border-radius: 50%;
+  color: #34495a;
+  font-size: 35px;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
